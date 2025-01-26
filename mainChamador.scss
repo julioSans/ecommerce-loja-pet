@@ -1,0 +1,20 @@
+// esse arquivo so serve para chamar os outros aquivos
+
+// Estrutura da estilização
+
+// <mainChamador.scss>
+    // configuracoes 
+    @use './src/assets/sass/config/cores.scss'; 
+    @use './src/assets/sass/config/variaveis.scss'; 
+    @use './src/assets/sass/config/mixins.scss'; 
+    @use './src/assets/sass/config/fonts.scss'; 
+    
+    //base
+    @use './src/assets/sass/base/global.scss'; 
+    @use './src/assets/sass/base/reset.scss'; 
+
+    //components 
+    @use './src/assets/sass/componets/butoes.scss'; 
+    @use './src/assets/sass/componets/icons.scss';
+    
+//</mainChamador.scss>

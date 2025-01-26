@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "sass": "^1.83.0"
+  },
+  "scripts": {
+    "sass": "sass mainChamador.scss:src/assets/css/style.css --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
