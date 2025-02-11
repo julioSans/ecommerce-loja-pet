@@ -2,4 +2,14 @@ body {
   background-color: rgb(6, 170, 6);
 }
 
+body header {
+  background-color: rgb(161, 15, 15);
+}
+body header ul {
+  display: block;
+}
+body header ul li {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */

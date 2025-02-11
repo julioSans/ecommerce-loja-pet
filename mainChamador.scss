@@ -8,7 +8,7 @@
     @use './src/assets/sass/config/variaveis.scss'; 
     @use './src/assets/sass/config/mixins.scss'; 
     @use './src/assets/sass/config/fonts.scss'; 
-    
+    @use './src/assets/sass/config/header.scss';
     //base
     @use './src/assets/sass/base/global.scss'; 
     @use './src/assets/sass/base/reset.scss'; 
